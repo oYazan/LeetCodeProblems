@@ -1,4 +1,4 @@
-#include <iostream>
+#include <string>
 #include <stack>
 
 using namespace std;
@@ -24,10 +24,4 @@ bool isValid(string s) {
         }
     }
     return openChars.empty();
-}
-
-int main() {
-    string input = "()[]{}";
-    cout << "Valid: " << (isValid(input) ? "true" : "false") << endl;
-    return 0;
 }

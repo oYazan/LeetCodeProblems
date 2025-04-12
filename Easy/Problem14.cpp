@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 #include <string>
 
@@ -17,10 +16,4 @@ string longestCommonPrefix(vector<string>& strs) {
         prefix += current;
     }
     return prefix;
-}
-
-int main() {
-    vector<string> myVec = {"flower", "flow", "flight"};
-    cout << "Most common: " << longestCommonPrefix(myVec);
-    return 0;
 }
