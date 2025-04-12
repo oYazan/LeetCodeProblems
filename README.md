@@ -1,1 +1,1 @@
-# A small repo containing (LeetCode)[https://leetcode.com/] problems I solve
+# A small repo containing [LeetCode](https://leetcode.com/) problems I solve
